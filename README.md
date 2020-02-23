@@ -11,11 +11,11 @@ xxx
 // App.js
 import React from 'react';
 import Test from './Test'
-import index, { EfoxContext } from './useEfoxLang/index.js'
+import useEfoxLang, { EfoxContext } from './useEfoxLang/index.js'
 
 function App() {
   const pathName =  'm_girgir/voice_friend_gir'
-  const [state, dispatch] = index(pathName)
+  const [state, dispatch] = useEfoxLang(pathName)
 
   return (
     <EfoxContext.Provider value={{state, dispatch}}>
@@ -26,12 +26,13 @@ function App() {
 
 export default App;
 
+
 ```
 
 ```js
 // Test.js
 import React, {useContext} from 'react';
-import index, { EfoxContext } from './useEfoxLang/index.js'
+import { EfoxContext } from './useEfoxLang/index.js'
 
 function Test(props) {
   const message = useContext(EfoxContext);
@@ -43,6 +44,7 @@ function Test(props) {
 }
 
 export default Test
+
 
 
 ```

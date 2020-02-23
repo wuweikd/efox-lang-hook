@@ -1,5 +1,5 @@
 import React, {useContext} from 'react';
-import index, { EfoxContext } from './useEfoxLang/index.js'
+import { EfoxContext } from './useEfoxLang/index.js'
 
 function Test(props) {
   const message = useContext(EfoxContext);
