@@ -1,7 +1,7 @@
 import React, {useReducer, useEffect} from 'react'
 import { getMessages } from './http.ts'
 
-function useEfoxLang(pathName) {
+function Index(pathName) {
   const [state, dispatch] = useReducer(reducer, {})
 
   function reducer(state, reducer) {
@@ -22,4 +22,4 @@ function useEfoxLang(pathName) {
 
 const EfoxContext = React.createContext(null)
 export { EfoxContext }
-export default useEfoxLang
+export default Index
