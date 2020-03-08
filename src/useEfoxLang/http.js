@@ -7,7 +7,7 @@ function getQueryVariable(variable)
   let vars = query.split("&");
   for (let i=0;i<vars.length;i++) {
     let pair = vars[i].split("=");
-    if(pair[0] == variable){return pair[1];}
+    if(pair[0] === variable){return pair[1];}
   }
   return false;
 }
@@ -20,10 +20,8 @@ export async function getMessages(pathName) {
     'url',
     `https://m.girgirapp.com/langpackage/multiLangBig/${pathName}/${l}.json`
   )
-  const start = Date.now()
   const url = `https://m.girgirapp.com/langpackage/multiLangBig/${pathName}/${l}.json`
   console.log('url', url)
   const res = await http.get(url)
-  const end = Date.now()
   return res.data.data
 };
