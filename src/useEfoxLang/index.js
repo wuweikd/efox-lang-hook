@@ -16,7 +16,7 @@ function Index(pathName) {
       dispatch(initState)
     }
     getData()
-  }, [])
+  }, [pathName])
   return [state, dispatch]
 }
 
