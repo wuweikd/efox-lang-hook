@@ -1,5 +1,5 @@
 import React, {useReducer, useEffect} from 'react'
-import { getMessages } from './http.ts'
+import { getMessages } from './http.js'
 
 function Index(pathName) {
   const [state, dispatch] = useReducer(reducer, {})
