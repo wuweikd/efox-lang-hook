@@ -49,3 +49,5 @@ export default Test
 
 ```
 未完待续...
+
+测试自动化构建
