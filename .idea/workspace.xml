@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e861abc5-da06-4823-a7a2-65530384ff67" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.ssh/id_rsa" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.ssh/id_rsa.pub" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.ssh/id_rsa" beforeDir="false" afterPath="$PROJECT_DIR$/.ssh/id_rsa" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.ssh/id_rsa.pub" beforeDir="false" afterPath="$PROJECT_DIR$/.ssh/id_rsa.pub" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,26 +20,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.travis.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="17" column="14" lean-forward="true" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.ssh/id_rsa">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.ssh/id_rsa.pub">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="8">
+              <caret line="13" column="7" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -86,9 +68,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="77" />
-    <option name="y" value="25" />
-    <option name="width" value="1392" />
+    <option name="x" value="-58" />
+    <option name="width" value="1610" />
     <option name="height" value="922" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -104,11 +85,6 @@
             <path>
               <item name="efoxlang" type="b2602c69:ProjectViewProjectNode" />
               <item name="efoxlang" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="efoxlang" type="b2602c69:ProjectViewProjectNode" />
-              <item name="efoxlang" type="462c0819:PsiDirectoryNode" />
-              <item name=".ssh" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="efoxlang" type="b2602c69:ProjectViewProjectNode" />
@@ -135,14 +111,14 @@
     <property name="ts.external.directory.path" value="D:\Program Files (x86)\WebStorm 2019.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\myselfWorkSpace\efoxlang\src" />
+      <recent name="D:\myselfWorkSpace\efoxlang\src\i18n" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\myselfWorkSpace\efoxlang" />
       <recent name="D:\myselfWorkSpace\efoxlang\src" />
       <recent name="D:\myselfWorkSpace\efoxlang\src\exfox-lang" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\myselfWorkSpace\efoxlang\src" />
-      <recent name="D:\myselfWorkSpace\efoxlang\src\i18n" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -203,7 +179,7 @@
       <workItem from="1583665898768" duration="2298000" />
       <workItem from="1584257812155" duration="5327000" />
       <workItem from="1584267089400" duration="6618000" />
-      <workItem from="1584274257132" duration="835000" />
+      <workItem from="1584274257132" duration="1902000" />
     </task>
     <task id="LOCAL-00001" summary="feat: 完成最初版本">
       <created>1582452515818</created>
@@ -303,16 +279,23 @@
       <option name="project" value="LOCAL" />
       <updated>1584275031992</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="feat: pm2">
+      <created>1584275219958</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1584275219958</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25527000" />
+    <option name="totallyTimeSpent" value="26594000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="62" y="20" width="1113" height="737" extended-state="0" />
+    <frame x="62" y="20" width="1288" height="737" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.39789474" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21964855" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -327,7 +310,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3286119" />
       <window_info anchor="bottom" id="TypeScript" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.47768596" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.6859504" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -491,8 +474,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.travis.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="17" column="14" lean-forward="true" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+        <state relative-caret-position="8">
+          <caret line="13" column="7" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
         </state>
       </provider>
     </entry>

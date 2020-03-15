@@ -19,7 +19,7 @@ after_success:
   - cp -r build dist/build
   - cp package.json ecosystem.config.js dist
 before_install:
-  - openssl aes-256-cbc -K $encrypted_4dabef4e5ded_key -iv $encrypted_4dabef4e5ded_iv -in id_rsa.enc -out ~/.ssh/id_rsa -d
+  - openssl aes-256-cbc -K $encrypted_6e245bcd2662_key -iv $encrypted_6e245bcd2662_iv -in id_rsa.enc -out ~/.ssh/id_rsa -d
     #降低id_rsa文件的权限，否则ssh处于安全方面的原因会拒绝读取秘钥
     - chmod 600 ~/.ssh/id_rsa
     #将生产服务器地址加入到构建机的信任列表中，否则连接时会询问是否信任服务器
