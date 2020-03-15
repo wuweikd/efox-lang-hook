@@ -15,7 +15,7 @@ script:
 #构建成功后，把部署所需的文件都拷贝到 dist 文件夹下
 after_success:
   - mkdir dist
-  - cp -r .next/ dist/.next
+  - cp -r build dist/.next
   - cp package.json dist
 #把 dist 文件推送到 github DEPLOY-PROD 分支下
 deploy:
