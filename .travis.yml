@@ -9,14 +9,17 @@ branches:
     - master
 #安装依赖
 install:
+  - yarn add global pm2
   - yarn install
 script:
   - yarn build
 #构建成功后，把部署所需的文件都拷贝到 dist 文件夹下
 after_success:
   - mkdir dist
-  - cp -r build dist/.next
-  - cp package.json dist
+  - cp -r build dist/build
+  - cp package.json ecosystem.config.js dist
+after_deploy:
+  - pm2 deploy pm2.config.js prod setup --force
 #把 dist 文件推送到 github DEPLOY-PROD 分支下
 deploy:
   provider: pages
