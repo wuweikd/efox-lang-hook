@@ -18,6 +18,8 @@ after_success:
   - mkdir dist
   - cp -r build dist/build
   - cp package.json ecosystem.config.js dist
+before_install:
+  # 降低id_rsa文件的权限，否则ssh处于安全方面的原因会拒绝读取秘钥
 after_deploy:
   - pm2 deploy pm2.config.js prod setup --force
 #把 dist 文件推送到 github DEPLOY-PROD 分支下
