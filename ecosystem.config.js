@@ -1,7 +1,7 @@
 module.exports = {
   apps: [
     {
-      name: 'da_prod',
+      name: 'efoxlang',
       script: 'yarn',
       args: 'run start'
     }
